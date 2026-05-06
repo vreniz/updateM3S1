@@ -1,4 +1,4 @@
-# ★🎸🎧⋆｡ °⋆ SHATTERED RIFFS — Rock Band Landing Page
+# 💻 ★⋆｡ °⋆     Interactive Systems
 
 > Single-page promotional website for the rock band **Shattered Riffs** and their *Rock the Night Tour 2026*. Built with plain HTML, CSS, and a minimal amount of vanilla JavaScript. No frameworks, no build tools, no dependencies.
 
