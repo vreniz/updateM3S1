@@ -57,7 +57,7 @@ const addUser = () => {
   const userAge = Number(prompt(`Hi!! ${userName} How old are you?`));
 
   // Validate: age must be a number and greater than 0
-  if (isNaN(userAge) || userAge <= 0) {
+  if (isNaN(userAge) || userAge <= 0|| !Number.isInteger(userAge)) {
     console.error("Error: Please enter a valid age in numbers.");
     showToast();
     return;
