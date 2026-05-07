@@ -26,4 +26,4 @@ Shattered Riffs is a fully static, single-page site. The design system is driven
 
 ## DEMO
 
-![Interactive System GIF Demo](assets/img/demo.gif)
+![Interactive System GIF Demo](assets/img/img.gif)
