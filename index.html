@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Message System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+  <!-- Welcome page -->
+  <div id="welcome-page">
+    <div class="welcome-content">
+      <span class="welcome-badge">// Interactive System v1.0</span>
+      <h1 class="welcome-title">User Registration</h1>
+      <p class="welcome-sub">
+        Add users, validate their age, and view the registry
+        in real-time from the console.
+      </p>
+      <button class="btn-start" onclick="startApp()">
+        → Get Started
+      </button>
+    </div>
+  </div>
+
+  <!-- Main page with user table and add user functionality -->
+  <div id="main-page">
+
+    <div class="header">
+      <div>
+        <h2 class="header-title">User <span>Panel</span></h2>
+        <p class="user-count">Total registered: <strong id="user-count">0</strong></p>
+      </div>
+
+      <!-- Action buttons grouped together -->
+      <div class="header-actions">
+        <button class="btn-add" onclick="addUser()">+ ADD USER</button>
+        <button class="btn-reset" onclick="resetApp()">← Back to Home</button>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Category</th>   <!-- NEW: age category column -->
+            <th>Status</th>
+            <th>Action</th>     <!-- NEW: delete button column -->
+          </tr>
+        </thead>
+        <tbody id="table_body">
+          <!-- Dynamic rows inserted by JS -->
+        </tbody>
+      </table>
+
+      <!-- Message when no users are registered -->
+      <div class="empty-state" id="empty-state">
+        <span class="icon">📋</span>
+        No users registered yet.<br/>
+        Click on <strong>+ ADD USER</strong> to get started.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Toast for error -->
+  <div id="toast">⚠️ Error: enter a valid age number.</div>
+
+  <script src="interactive_sis.js"></script>
+</body>
+</html>
