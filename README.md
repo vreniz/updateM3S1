@@ -115,6 +115,7 @@ The header count updates automatically on every **add** and **delete** action, a
 ## Color Reference
 All colors are defined once in `:root` as CSS custom properties and reused throughout — making the neon-on-dark theme consistent and easy to maintain.
 
+<div align="center">
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
@@ -127,6 +128,7 @@ All colors are defined once in `:root` as CSS custom properties and reused throu
 | error | ![#ef4444](https://dummyimage.com/15/ef4444/white?text=+) #ef4444 |
 | text | ![#e2e8f0](https://dummyimage.com/15/e2e8f0/white?text=+) #e2e8f0 |
 | muted | ![#64748b](https://dummyimage.com/15/64748b/white?text=+) #64748b |
+</div>
 
 ---
 
