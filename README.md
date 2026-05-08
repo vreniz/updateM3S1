@@ -2,10 +2,17 @@
 
 > Single-page user registration system featuring real-time age validation and local dynamic record management **Interactive Systems** Built with plain HTML, CSS, and vanilla JavaScript—no frameworks, build tools, or dependencies.
 
-Live at: https://vreniz.github.io/updateM3S1/ <br>
+Live at: https://vreniz.github.io/updateM3S1/ </br>
 vercel: https://update-m3-s1.vercel.app/
 ---
-
+## Table of Contents
+1. [Overview](#overview)
+2. [Technologies Used](#technologies-used)
+3. [Demo](#demo)
+4. [Project Structure](#project-structure)
+5. [Key Features](#key-features)
+6. [Color Reference](#color-reference)
+7. [How to Run](#-how-to-run)
 ---
 
 ## Overview
@@ -53,7 +60,7 @@ M3S1/
 
 ---
 
-## Key features 🚀
+## Key Features 🚀
 
 
 ### 🧩 Interactive Data Entry via `prompt()`
