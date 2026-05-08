@@ -1,6 +1,4 @@
-/* ============================================================
-   VARIABLES Y RESET GLOBAL
-============================================================ */
+/* VARIABLES Y RESET GLOBAL */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -24,9 +22,7 @@ html, body {
   font-family: var(--font-mono);
 }
 
-/* ============================================================
-   PÁGINA DE BIENVENIDA
-============================================================ */
+/* PÁGINA DE BIENVENIDA */
 #welcome-page {
   min-height: 100vh;
   display: flex;
@@ -128,9 +124,7 @@ html, body {
 
 .btn-start:active { transform: translateY(0); }
 
-/* ============================================================
-   PÁGINA PRINCIPAL (TABLA)
-============================================================ */
+/*PÁGINA PRINCIPAL (TABLA)*/
 #main-page {
   display: none;
   min-height: 100vh;
@@ -218,9 +212,7 @@ html, body {
   border-color: var(--error);
 }
 
-/* ============================================================
-   TABLA
-============================================================ */
+/*TABLA */
 .table-wrapper {
   width: 100%;
   overflow-x: auto;
@@ -268,9 +260,7 @@ tbody td:first-child {
   font-size: 0.75rem;
 }
 
-/* ============================================================
-   BADGES
-============================================================ */
+/* BADGES */
 
 /* Estado: Activo */
 .badge {
@@ -311,9 +301,7 @@ tbody td:first-child {
   border: 1px solid rgba(6,182,212,0.3);
 }
 
-/* ============================================================
-   BOTÓN ELIMINAR FILA
-============================================================ */
+/*BOTÓN ELIMINAR FILA */
 .btn-delete {
   background: transparent;
   color: var(--muted);
@@ -340,9 +328,7 @@ tr.removing {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* ============================================================
-   ESTADO VACÍO
-============================================================ */
+/* ESTADO VACÍO */
 .empty-state {
   text-align: center;
   padding: 4rem 1rem;
@@ -358,9 +344,7 @@ tr.removing {
   opacity: 0.4;
 }
 
-/* ============================================================
-   TOAST DE ERROR
-============================================================ */
+/*  TOAST DE ERROR */
 #toast {
   position: fixed;
   bottom: 2rem;
@@ -381,9 +365,7 @@ tr.removing {
   transform: translateX(-50%) translateY(0);
 }
 
-/* ============================================================
-   ANIMACIONES
-============================================================ */
+/*ANIMACIONES */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
