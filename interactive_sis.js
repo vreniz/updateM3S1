@@ -1,6 +1,6 @@
-// ============================================================
+
 // GLOBAL VARIABLES
-// ============================================================
+
 const users = [];      // Array to store user objects
 let idCounter = 0;     // Counter for auto-incremental IDs
 
